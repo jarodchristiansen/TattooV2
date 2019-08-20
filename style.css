@@ -64,16 +64,7 @@
   visibility: visible;
   opacity: .6;
 }
-.art1, .art2, .art3 {
-  padding-bottom: 2rem;
-}
 
-.Artists {
-  margin-top: 5rem;
-  margin-left: 33%;
-  display: block;
-  width: 100%;
-}
 @media screen and (min-width: 700px) {
     .container {
       width: 100%;

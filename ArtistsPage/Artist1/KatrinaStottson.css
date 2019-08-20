@@ -1,0 +1,18 @@
+body {
+    height: 100vh;
+}
+.Bio {
+    display:flex;
+    flex-direction: row;
+    height: 30vh;
+}
+.art1 {
+    border-radius: 100%;
+    margin-top: 5vh;
+    height: 20vh;
+    width: 40vw;
+}
+p {
+    margin-left: 3vw;
+    margin-top: 6vh;
+}
