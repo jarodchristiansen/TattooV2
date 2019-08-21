@@ -2,6 +2,8 @@ body {
     height: 100vh;
 }
 .Bio {
+    margin-left: 8vw;
+    width: 80vw;
     display:flex;
     flex-direction: row;
     height: 30vh;
@@ -9,10 +11,44 @@ body {
 .art1 {
     border-radius: 100%;
     margin-top: 5vh;
-    height: 20vh;
-    width: 40vw;
+    height: 10vh;
+    width: 30vw;
 }
 p {
-    margin-left: 3vw;
-    margin-top: 6vh;
+    width: 40vw;
+   margin-left: 5vw;
+   font-size: .9rem;
 }
+img {
+    box-shadow: 0px 10px 10px black;
+}
+
+
+    div#showgrid {
+      max-width: 50%;
+      margin-left: 25vw;
+    }
+  
+  
+  div.column {
+    margin-top: 3vh;  
+    border-style: solid;
+    border-width: 1px;
+
+  }
+
+  .row {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .column {
+    width: 50vw;
+    height: 230px;
+    margin: auto;
+  }
+  
+ .portfolio {
+     height: inherit;
+     width: inherit;
+ }

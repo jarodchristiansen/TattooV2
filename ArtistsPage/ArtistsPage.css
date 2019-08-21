@@ -118,12 +118,11 @@ button {
         max-width: 90vw;
     }
     .overlay {
-        position: fixed;
-        top: 0;
+        position: absolute;
+        top: 20;
         left: 0;
         background-color: rgba(87, 86, 86, 0.705);
         overflow: hidden;
-        width: 0;
         height: 30%;
         transition: .5s ease;
       }
@@ -177,25 +176,112 @@ button {
         height: 30vh;
         max-width: 90vw;
     }
-    .overlay {
-        position: fixed;
-        top: 0;
-        left: 0;
-        background-color: rgba(87, 86, 86, 0.705);
-        overflow: hidden;
-        width: 0;
-        height: 30%;
-        transition: .5s ease;
-      }
-      
-      .artist1:hover .overlay {
-        width: 100%;
-      }
-      .artist2:hover .overlay {
-        width: 100%;
-      }.artist3:hover .overlay {
-        width: 100%;
-      }.artist4:hover .overlay {
-        width: 100%;
-      } 
-  }
+    .img__wrap {
+      position: inherit;
+    }
+     p {
+       font-size: 3vw;
+       padding-top: 22%;
+     }
+    .img__description {
+      text-align: center;
+      position: absolute;
+      width: 66vw;
+      top: 150px;
+      bottom: 345px;
+      left: 69px;
+      right: -10px;
+      background: rgba(206, 206, 206, 0.72);
+      color: #fff;
+      overflow: hidden;
+      visibility: hidden;
+      opacity: .1;
+    
+      /* transition effect. not necessary */
+      transition: opacity 1s, visibility .2s;
+    }
+    
+    .img__wrap:hover .img__description {
+      visibility: visible;
+      opacity: 1;
+    }
+    .img__wrap1 {
+      position: inherit;
+    }
+    
+    .img__description1 {
+      text-align: center;
+      position: absolute;
+      width: 48vw;
+      height: 380px;
+      top: 413px;
+      bottom: 345px;
+      left: 118px;
+      right: -10px;
+      background: rgba(206, 206, 206, 0.72);
+      color: #fff;
+      overflow: hidden;
+      visibility: hidden;
+      opacity: .1;
+    
+      /* transition effect. not necessary */
+      transition: opacity 1s, visibility .2s;
+    }
+    
+    .img__wrap1:hover .img__description1 {
+      visibility: visible;
+      opacity: 1;
+    }
+    .img__wrap2 {
+      position: inherit;
+    }
+    
+    .img__description2 {
+      text-align: center;
+      position: absolute;
+      width: 68vw;
+      height: 230px;
+      top: 830px;
+      left: 76px;
+      right: -10px;
+      background: rgba(206, 206, 206, 0.72);
+      color: #fff;
+      overflow: hidden;
+      visibility: hidden;
+      opacity: .1;
+    
+      /* transition effect. not necessary */
+      transition: opacity 1s, visibility .2s;
+    }
+    
+    .img__wrap2:hover .img__description2 {
+      visibility: visible;
+      opacity: 1;
+    }
+    .img__wrap3 {
+      position: inherit;
+    }
+    
+    .img__description3 {
+      text-align: center;
+      position: absolute;
+      width: 68vw;
+      height: 230px;
+      top: 830px;
+      left: 76px;
+      right: -10px;
+      background: rgba(206, 206, 206, 0.72);
+      color: #fff;
+      overflow: hidden;
+      visibility: hidden;
+      opacity: .1;
+    
+      /* transition effect. not necessary */
+      transition: opacity 1s, visibility .2s;
+    }
+    
+    .img__wrap3:hover .img__description3 {
+      visibility: visible;
+      opacity: 1;
+    }
+  };
