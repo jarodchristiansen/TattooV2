@@ -1,5 +1,6 @@
 body {
     height: 100vh;
+    
 }
 .Bio {
     margin-left: 8vw;
@@ -22,11 +23,9 @@ p {
 img {
     box-shadow: 0px 10px 10px black;
 }
-
-
-    div#showgrid {
+   div#showgrid {
       max-width: 50%;
-      margin-left: 25vw;
+      margin-left: 0vw;
     }
   
   
@@ -34,17 +33,16 @@ img {
     margin-top: 3vh;  
     border-style: solid;
     border-width: 1px;
-
   }
 
   .row {
-    width: 100%;
+    width: 100vw;
     margin: auto;
   }
   
   .column {
     width: 50vw;
-    height: 230px;
+    height: 40vh;
     margin: auto;
   }
   
@@ -52,3 +50,125 @@ img {
      height: inherit;
      width: inherit;
  }
+
+
+
+
+ @media screen and (min-width: 900px) {
+  
+  
+  div#showgrid {
+    max-width: 50%;
+    margin-left: 0vw;
+  }
+  
+
+div.column {
+  margin-top: 3vh;  
+  border-style: solid;
+  border-width: 1px;
+}
+
+.row {
+  width: 100vw;
+  margin: auto;
+}
+
+.column {
+  width: 50vw;
+  height: 40vh;
+  margin: auto;
+}
+
+.portfolio {
+   height: inherit;
+   max-width: inherit;
+}
+
+}
+@media screen and (min-width: 700px) {
+  div#showgrid {
+    max-width: 50%;
+    margin-left: 20vw;
+  }
+
+
+div.column {
+  margin-top: 3vh;  
+  border-style: solid;
+  border-width: 1px;
+}
+
+.row {
+  width: auto;
+  margin: auto;
+}
+
+.column {
+  width: inherit;
+  height: inherit;
+  margin: auto;
+}
+
+.portfolio {
+  max-height:50vh;
+  max-width: 50vw; 
+  height: inherit;
+   width: inherit;
+}
+.art1 {
+  max-width: 25vw;
+  height: 30vh;
+}
+p {
+  margin-top: 10vh;
+}
+}
+@media screen and (min-width: 620px) {
+  .art1 {
+    width:33vw;
+    height:30vw;
+  }
+  p {
+    margin-top: 7vh;
+  }
+}
+@media screen and (min-width: 375px) {
+  .art1 {
+    width:20vw;
+    height:20vw;
+  }
+  p {
+    margin-top: 11vh;
+  }
+  div#showgrid {
+    max-width: 50%;
+    margin-top: 10vh;
+    margin-left: 23vw;
+  }
+
+
+div.column {
+  margin-top: 3vh;  
+  border-style: solid;
+  border-width: 1px;
+}
+
+.row {
+  width: auto;
+  margin: auto;
+}
+
+.column {
+  width: inherit;
+  height: inherit;
+  margin: auto;
+}
+
+.portfolio {
+  max-height:50vh;
+  max-width: 50vw; 
+  height: inherit;
+   width: inherit;
+}
+}
