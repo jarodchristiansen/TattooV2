@@ -22,6 +22,13 @@ p {
 }
 img {
     box-shadow: 0px 10px 10px black;
+  transition: -webkit-transform 0.25s ease;
+  transition: transform 0.5s ease;
+}
+
+img:active {
+  -webkit-transform: scale(2);
+  transform: scale(2);
 }
    div#showgrid {
       max-width: 50%;
@@ -50,6 +57,8 @@ img {
      height: inherit;
      width: inherit;
  }
+
+ 
 
 
 

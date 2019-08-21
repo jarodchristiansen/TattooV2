@@ -168,7 +168,13 @@ button {
         flex-direction: column;
     }
     .img__description3 {
-      right: 33.3vw;
+      right: 30.3vw;
+    }
+    .img__description {
+      right: 22.5vw;
+    }
+    .img__description2 {
+      right: 18.5vw;
     }
     .artists {
         margin-top: 20px;
@@ -223,7 +229,7 @@ button {
       top: 10vh;
       bottom: -2.5vh;
       left: 6.1vw;
-      right: 32.6vw;
+      right: 30vw;
     }
     .img__description2 {
       text-align: center;
@@ -231,7 +237,7 @@ button {
       top: 2vh;
       bottom: -1.8vh;
       left: 6.9vw;
-      right: 30.1vw;
+      right: 27.6vw;
     }
     .img__description3 {
       text-align: center;
@@ -239,7 +245,7 @@ button {
       top: 2vh;
       bottom: -2.3vh;
       left: 15vw;
-      right: 42.5vw;
+      right: 36.5vw;
     }
     p {
       padding-top: 15%;
