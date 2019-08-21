@@ -117,8 +117,18 @@ button {
   opacity: 0;
   transition: opacity .8s, visibility .2s;
 }
-
-
+.logo {
+  max-height: 8rem;
+}
+.navbar-brand {
+  display:flex;
+  flex-direction: row;
+}
+h1 {
+  margin-top: 7vh;
+  font-size: 1.5rem;
+  font-family: 'Courgette', cursive;
+}
 
   @media screen and (min-width: 768px) {
     .container {
@@ -168,13 +178,13 @@ button {
         flex-direction: column;
     }
     .img__description3 {
-      right: 30.3vw;
+      right: 33.3vw;
     }
     .img__description {
-      right: 22.5vw;
+      right: 26.5vw;
     }
     .img__description2 {
-      right: 18.5vw;
+      right: 22.5vw;
     }
     .artists {
         margin-top: 20px;
@@ -229,7 +239,7 @@ button {
       top: 10vh;
       bottom: -2.5vh;
       left: 6.1vw;
-      right: 30vw;
+      right: 32.5vw;
     }
     .img__description2 {
       text-align: center;
@@ -237,7 +247,7 @@ button {
       top: 2vh;
       bottom: -1.8vh;
       left: 6.9vw;
-      right: 27.6vw;
+      right: 29.8vw;
     }
     .img__description3 {
       text-align: center;
@@ -245,7 +255,7 @@ button {
       top: 2vh;
       bottom: -2.3vh;
       left: 15vw;
-      right: 36.5vw;
+      right: 38.1vw;
     }
     p {
       padding-top: 15%;
