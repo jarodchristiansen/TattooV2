@@ -123,6 +123,26 @@ h1 {
   background: #bb0000;
   color: white;
 }
+@media screen and (min-width: 375px) {
+  .Logo {
+    width: 100px;
+    height: 100px;
+  }
+  h1 {
+    max-width: 20vw;
+    font-size: 1.2rem;
+  }
+  .container {
+    width: 100%;
+  }
+  .img__description {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 32px;
+    left: 8vw;
+    right: 8vw;
+  }
 @media screen and (min-width: 700px) {
     .container {
       width: 100%;
@@ -161,4 +181,4 @@ h1 {
       width: 70%;
     }
 
-  }
+  }};
