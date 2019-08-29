@@ -10,10 +10,9 @@ body {
   height: 30vh;
 }
 .art1 {
-  border-radius: 100%;
+  border-radius: 50%;
   margin-top: 5vh;
-  height: 10vh;
-  width: 30vw;
+  height: 3vh;
 }
 p {
   width: 40vw;
@@ -144,8 +143,14 @@ margin: auto;
 margin-left: 50%;
 margin-top: 7.5vh;
 }
-
-
+.art1 {
+  max-width: 5vw;
+}
+}
+@media screen and (min-width: 1024px) {
+  .art1 {
+    max-width: 1vw;
+  }
 }
 
 @media screen and (min-width: 900px) {
@@ -182,7 +187,9 @@ margin: auto;
 margin-left: 50%;
 margin-top: 7.5vh;
 }
-
+.art1 {
+  max-width: 20vw;
+}
 
 }
 @media screen and (min-width: 700px) {
@@ -217,13 +224,13 @@ height: inherit;
 }
 .art1 {
 max-width: 25vw;
-height: 30vh;
+max-height: 30vh;
 }
 p {
 margin-top: 10vh;
 }
 }
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 600px) {
 .art1 {
   width:33vw;
   height:30vw;

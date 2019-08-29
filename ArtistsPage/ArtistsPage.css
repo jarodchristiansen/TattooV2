@@ -176,7 +176,13 @@ h1 {
   background: #bb0000;
   color: white;
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 320px) {
+  .artists {
+    margin-left: 7vw;
+  }
+  .art3 {
+   margin-left: 6vw; 
+  }
   .Logo {
     width: 100px;
     height: 100px;
@@ -191,10 +197,20 @@ h1 {
   .img__description {
     text-align: center;
     position: absolute;
+    top: 10vh;
+    bottom: 5;
+    left: 5vw;
+    right: 20vw;
+  }
+  .img__description2 {
+    right: 17.5vw;
+    left: 6vw;
     top: 0;
-    bottom: 32px;
-    left: 8vw;
-    right: 8vw;
+  }
+  .img__description3 {
+    right: 27.5vw;
+    left: 18vw;
+    top: 0;
   }
 
   @media screen and (min-width: 768px) {
@@ -203,6 +219,7 @@ h1 {
         height: 100vh;
         display: flex;
         flex-direction: column;
+        width:80vw;
     }
     
     .artists {
@@ -213,20 +230,21 @@ h1 {
         box-shadow: 0px 10px 10px black;
         margin-top: 10vh;
         margin-left: 6vw;
-        height: 50vh;
-        max-width: 80vw;
+        margin-right: 3vw;
+        max-height: 55vh;
+        max-width: 60vw;
     }
     .art2 {
         margin-top: 15px;
         box-shadow: 0px 10px 10px black;
         margin-left: 15vw;
-        height: 70vh;
+        max-height: 70vh;
     }
     .art3 {
         margin-top: 15px;
         box-shadow: 0px 10px 10px black;
         margin-left: 7vw;
-        height: 50vh;
+        max-height: 50vh;
         max-width: 85vw;
     }
     .piercer{
@@ -236,9 +254,25 @@ h1 {
         height: 30vh;
         max-width: 90vw;
     }
+    .img__description {
+      bottom: -2vh;
+      left: 5.5vw;
+      top: 10vh;
+      right: 23.5vw;
+    }
+    .img__description2 {
+      top: 2vh;
+      left: 7vw;
+      right: 20.5vw;
+    }
+    .img__description3 {
+      right: 30.7vw;
+      left: 15vw;
+      top: 0.5vh;
+    }
   }
   
-  @media screen and (max-width: 620px) {
+  @media screen and (max-width: 600px) {
     .container {
         margin-left: 5vw;
         height: 100vh;
@@ -256,7 +290,7 @@ h1 {
       bottom: -2vh;
     }
     .img__description2 {
-      right: 28vw;
+      right: 20vw;
       bottom: -2vh;
     }
     .artists {
@@ -290,21 +324,22 @@ h1 {
         max-width: 90vw;
     }
   };
-  @media screen and (min-width: 700px) {
- 
-    .img__description {
-      text-align: center;
-      position: absolute;
-      top: 0;
-      bottom: 32px;
-      left: 8vw;
-      right: 8vw;
-    }
+
   }
   @media screen and (min-width: 900px) {
     
     .container {
       margin-left: 25vw;
+    }
+    .art1 {
+      height: 45vh;
+    }
+    .art2 {
+      height: 60vh;
+    }
+    .art3 {
+      height: 45vh;
+      margin-left: 3vw;
     }
     .img__description {
       text-align: center;
@@ -312,15 +347,15 @@ h1 {
       top: 10vh;
       bottom: -2.5vh;
       left: 6.1vw;
-      right: 32.5vw;
+      right: 20vw;
     }
     .img__description2 {
       text-align: center;
       position: absolute;
       top: 2vh;
       bottom: -1.8vh;
-      left: 6.9vw;
-      right: 29.8vw;
+      left: 3vw;
+      right: 25vw;
     }
     .img__description3 {
       text-align: center;
@@ -328,15 +363,42 @@ h1 {
       top: 2vh;
       bottom: -2.3vh;
       left: 15vw;
-      right: 38.1vw;
+      right: 33.5vw;
     }
     p {
       padding-top: 15%;
     }
     
   }
-  @media screen and (min-width: 1400px) {
+  @media screen and (min-width: 1024px) {
     .container {
-      width: 100%;
+      width: 80%;
     }
+    .artists {
+      margin-left: 0;
+    }
+    .art3 {
+      margin-left: 6.5vw;
+    }
+    .img__description {
+      right: 29vw;
+    }
+    .img__description3 {
+      right: 36.7vw;
+    }
+    .img__description2 {
+      right: 26.2vw;
+      left: 6.5vw;
+    }
+    @media screen and (min-width: 1200px) {
+      .img__description {
+        right: 34vw;
+      }
+      .img__description2 {
+        right: 32vw;
+      }
+      .img__description3 {
+        right: 40vw;
+      }
+    
   }}
