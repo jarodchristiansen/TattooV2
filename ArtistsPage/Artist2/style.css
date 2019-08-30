@@ -29,6 +29,10 @@ img:active {
 -webkit-transform: scale(2);
 transform: scale(2);
 }
+.logo {
+  box-shadow: none;
+  height: 8rem;
+}
  div#showgrid {
     max-width: 50%;
     margin-left: 0vw;

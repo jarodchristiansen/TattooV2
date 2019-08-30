@@ -33,7 +33,10 @@ body {
       max-width: 50%;
       margin-left: 0vw;
     }
-  
+  .logo {
+    box-shadow: none;
+    max-height: 8rem;
+  }
   
   div.column {
     margin-top: 3vh;  
